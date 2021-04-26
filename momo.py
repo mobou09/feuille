@@ -21,3 +21,9 @@ def nombre(*args):
             return c, False
     return c, True
 
+def aire(base, h):
+    calcule = base*h/2
+    return calcule
+
+print(aire(4, 8))
+
