@@ -1,7 +1,6 @@
 from functools import cache
 import timeit
 import math
-import turtle
 
 
 def diviseur(n):
@@ -65,14 +64,7 @@ def volume(rayon):
     calcule = 4/3*math.pi*rayon**3
     return calcule
 
-def poly(n, l, tortue):
-    angle = 360/n
-    for i in range(n):
-        tortue.forward(l)
-        tortue.left(angle)
-
-
-def dessin_geometrique(l, h):
+"""def dessin_geometrique(l, h):
     turtle.Screen().setup(l, h)
     t = turtle.Turtle()
     t.penup()
@@ -94,9 +86,14 @@ def dessin_geometrique(l, h):
 
     turtle.Screen().exitonclick()
 
-dessin_geometrique(400, 300)
+dessin_geometrique(400, 300)"""
 
 def carre(n):
     calcule = n**2
     return calcule
+
+def trois(f, n):
+    return f(n)*3
+
+print(trois(carre, 5))
 
