@@ -100,3 +100,6 @@ def carre(n):
     calcule = n**2
     return calcule
 
+def quatre(f, n):
+    return f(n)*4
+
