@@ -25,3 +25,6 @@ for i in range(5):
     y1 = random.randint(-150, 10)
     t1 = random.randint(1, 5)
     Arbre(x1, y1, t1, turtle.Turtle)
+
+if __name__ == "__main__":
+    pass
