@@ -3,6 +3,7 @@ import timeit
 import math
 import turtle
 
+
 def diviseur(n):
     liste = []
     for i in range(1, n//2+1):
@@ -94,3 +95,8 @@ def dessin_geometrique(l, h):
     turtle.Screen().exitonclick()
 
 dessin_geometrique(400, 300)
+
+def carre(n):
+    calcule = n**2
+    return calcule
+
